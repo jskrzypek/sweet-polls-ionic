@@ -6,13 +6,13 @@ threadsafe: true
 
 handlers:
 - url: /styles
-  static_dir: dist/app/dev/styles
+  static_dir: dist/mobile/dev/styles
 
 - url: /scripts
-  static_dir: dist/app/dev/scripts
+  static_dir: dist/mobile/dev/scripts
 
 - url: /fonts
-  static_dir: dist/app/dev/fonts
+  static_dir: dist/mobile/dev/fonts
 
 - url: /.*
   script: main.app

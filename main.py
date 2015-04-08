@@ -18,7 +18,7 @@ import webapp2, os
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        INDEX_HTML = open(os.path.join(os.path.dirname(__file__), 'dist', 'app', 'dev', 'index.html')).read()
+        INDEX_HTML = open(os.path.join(os.path.dirname(__file__), 'dist', 'mobile', 'dev', 'index.html')).read()
         self.response.write(INDEX_HTML)
 
 app = webapp2.WSGIApplication([

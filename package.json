@@ -5,7 +5,10 @@
     "test": "gulp test",
     "postinstall": "bower install && node ./bin/protractor-fix-version.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "js-data": "^1.6.3",
+    "js-data-angular": "^2.2.3"
+  },
   "devDependencies": {
     "brfs": "1.4.0",
     "browser-sync": "2.2.4",

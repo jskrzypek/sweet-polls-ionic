@@ -12,7 +12,9 @@ var pluginlist = [
     'org.apache.cordova.device-orientation',
     'org.apache.cordova.geolocation',
     'org.apache.cordova.console',
-    'com.ionic.keyboard'
+    'com.ionic.keyboard',
+    'https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git'
+    // '-d https://github.com/Wizcorp/phonegap-facebook-plugin.git --variable APP_ID="438928069615035" --variable APP_NAME="sweet-polls"'
 ];
 
 // no need to configure below
